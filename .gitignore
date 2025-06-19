@@ -1,0 +1,13 @@
+/.cursor
+/.cursorignore
+/.env
+/.pytest_cache
+/quick_update.py
+/test_quick_check.py
+/test_quick_validation.py
+/update_all.py
+/update_processors.py
+/validate_processors.py
+/validate_processors_simple.py
+/venv
+/__pycache__
