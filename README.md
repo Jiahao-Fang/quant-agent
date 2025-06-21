@@ -7,26 +7,26 @@
 
 An AI-driven quantitative factor research platform that leverages LangGraph orchestration and KDB+ database integration for intelligent market data analysis and factor development.
 
-## 🚀 Features
+##  Features
 
 ### Core Capabilities
-- **🤖 AI-Driven Processing**: GPT-4 powered intelligent decision making throughout the pipeline
-- **🔄 LangGraph Orchestration**: Dynamic workflow orchestration with state management and checkpointing
-- **📊 KDB+ Integration**: Native integration with KDB+ database for high-performance time-series data
-- **🎯 Specialized Processors**: Four core processors with distinct responsibilities:
+- **AI-Driven Processing**: GPT-4 powered intelligent decision making throughout the pipeline
+- **LangGraph Orchestration**: Dynamic workflow orchestration with state management and checkpointing
+- **KDB+ Integration**: Native integration with KDB+ database for high-performance time-series data
+- **Specialized Processors**: Four core processors with distinct responsibilities:
   - **DataFetcher**: AI-optimized KDB+ query generation and data retrieval
   - **FeatureBuilder**: AI code generation using pykx and q language
   - **FactorAugmenter**: AI-powered factor enhancement and optimization
   - **BacktestRunner**: AI strategy design and intelligent metric selection
 
 ### Advanced Features
-- **🛠️ Human Intervention**: Pause, resume, and inject modifications at any stage
-- **📈 Real-time Monitoring**: Interactive UI with live pipeline status tracking
-- **🔍 Debug & Evaluation**: Built-in debugging and result evaluation capabilities
-- **💾 Checkpoint System**: Save and restore processing state at any point
-- **🎨 Modern UI**: Beautiful Streamlit-based interface with real-time updates
+- **Human Intervention**: Pause, resume, and inject modifications at any stage
+- **Real-time Monitoring**: Interactive UI with live pipeline status tracking
+- **Debug & Evaluation**: Built-in debugging and result evaluation capabilities
+- **Checkpoint System**: Save and restore processing state at any point
+- **Modern UI**: Beautiful Streamlit-based interface with real-time updates
 
-## 🏗️ Architecture
+## Architecture
 
 ### System Overview
 ```
@@ -79,7 +79,7 @@ quant-agent/
 └── requirements.txt             # Python dependencies
 ```
 
-## 🛠️ Installation
+## Installation
 
 ### Prerequisites
 - Python 3.12+
@@ -112,7 +112,7 @@ KDB_DB_PATH=D:/kdbdb
 MODEL_NAME=gpt-4
 ```
 
-## 🚀 Usage
+## Usage
 
 ### Command Line Interface
 ```bash
@@ -153,7 +153,7 @@ Generate a mean reversion factor for BTCUSDT using
 price deviation from 30-period moving average
 ```
 
-## 🔧 Development
+## Development
 
 ### Architecture Principles
 - **LangGraph-First**: All workflows use LangGraph for orchestration
@@ -193,7 +193,7 @@ pytest tests/processors/
 pytest tests/core/
 ```
 
-## 📊 Performance & Scalability
+## Performance & Scalability
 
 ### KDB+ Integration
 - Native pykx integration for high-performance data access
@@ -211,7 +211,7 @@ pytest tests/core/
 - Expensive operation memoization
 - Parallel data processing
 
-## 🔍 Monitoring & Debugging
+## Monitoring & Debugging
 
 ### Real-time Monitoring
 - Interactive UI with live status updates
@@ -228,31 +228,13 @@ pytest tests/core/
 - Step-by-step execution monitoring
 - Variable inspection and state analysis
 
-## 🤝 Contributing
-
-### Development Setup
-1. Fork the repository
-2. Create a feature branch
-3. Follow the coding standards:
-   - Use Python 3.12+ typing features
-   - Follow LangGraph patterns
-   - Maintain test coverage above 85%
-   - Update documentation for all changes
-
 ### Code Quality
 - **Formatting**: Black for code formatting
 - **Linting**: Ruff for linting and import sorting
 - **Type Checking**: MyPy for static type checking
 - **Testing**: Comprehensive test suite with pytest
 
-### Documentation
-- Update API documentation for changes
-- Maintain architecture documentation
-- Include usage examples and tutorials
-
-## 📚 Documentation
-
-## 🏆 Key Technologies
+## Key Technologies
 
 - **LangGraph**: Workflow orchestration and state management
 - **LangChain**: AI integration and prompt management
@@ -261,10 +243,6 @@ pytest tests/core/
 - **OpenAI GPT-4**: AI-driven decision making
 - **Python 3.12+**: Modern Python features and typing
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - LangGraph team for the excellent workflow orchestration framework
@@ -272,13 +250,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - OpenAI for providing the GPT-4 API
 - The open-source community for various supporting libraries
 
-## 📞 Support
-
-For questions, issues, or contributions:
-- Open an issue on GitHub
-- Check the documentation in the `docs/` directory
-- Review the UI guide in `src/ui/README.md`
-
----
 
 **Built with ❤️ for quantitative research and AI-driven factor development** 
